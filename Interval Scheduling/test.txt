@@ -1,0 +1,10 @@
+9 00 12 00 Anthropology
+9 00 11 30 Economics
+9 00 11 00 DataStructures
+12 10 13 10 Art
+11 50 12 30 Dance
+11 40 13 20 Systems
+13 30 14 00 Chemistry
+13 00 14 10 Biology
+13 40 14 30 Physics
+
