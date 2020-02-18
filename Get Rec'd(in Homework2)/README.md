@@ -4,7 +4,7 @@ Assume there is a empty graph G with n vertices. If rectangle A can nest in rect
 
 Then the question is: How to get the maximum length with **unknown start point**? To solve this question, let d(i) be the maximum length at a start vertex i. Then, because we are only able to reach the adjacent vertices(i.e. j), there will be a formula that:
 
- - d(i) = max{ d(j)+1 | (i, j) in E } or
+ - d(i) = max{ d(j)+1 | (i, j) in E(Set of edges) } or
  
  
  - d(i) = max(d(j)+1, d(i))
