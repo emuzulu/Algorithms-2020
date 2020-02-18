@@ -26,7 +26,7 @@ public class Main {
 		}
 		for(int i = 1; i <= n; i++) {
 			for (int j = 1; j <= n; j++) {
-				if ((a[i] < a[j] && b[i] < b[j]) || (b[i] < a[j] && a[i] < b[j]))//if i can nest in j
+				if ((a[i] < a[j] && b[i] < b[j]) || (b[i] < a[j] && a[i] < b[j]))//if i can nest in j(rotation permitted)
 					G[i][j] = 1;// form the DAG
 			}
 		}
