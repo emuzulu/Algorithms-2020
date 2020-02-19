@@ -8,7 +8,7 @@ public class Main {
 	static int[][] G = new int[5100][5100];//the DAG
 	static int  n = 0;//number of rec
 	static int dp(int i) {//to get the d(i)
-		if(d[i] > 0)//if the answer have already
+		if(d[i] > 0)//if the answer have already been recorded
 			return d[i];
 		d[i] = 1;//initialize the max length to 1
 		for(int j = 1; j <= n; j++) {
