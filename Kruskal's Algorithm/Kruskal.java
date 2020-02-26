@@ -83,6 +83,7 @@ public class Kruskal {
 		}
 		mergesort(0, M-1);//sort the edge list
 		kruskal();//kruskal's algorithm
+		System.out.println("The edges in MST are:");
 		for(int i = 0; i < total; i++) {
 			System.out.printf("(%d, %d)\n", MST[i].start, MST[i].end);
 		}
