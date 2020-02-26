@@ -15,5 +15,5 @@ Then the question is: How to get the maximum length with **unknown start point**
 
  (p.s. You do not have to fully understand this :P)
 
-## To see more
+## To See More
 [Longest Path on DAG(Dynamic Programming)](https://www.geeksforgeeks.org/longest-path-in-a-directed-acyclic-graph-dynamic-programming/)
